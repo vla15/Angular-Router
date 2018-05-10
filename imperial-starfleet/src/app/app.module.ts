@@ -6,17 +6,21 @@ import { InternalDefensesModule } from './internal-defenses/internal-defenses.mo
 
 import { AppComponent } from './app.component';
 import { TieFighterComponent } from './tie-fighter/tie-fighter.component';
+import { InfoWindowComponent } from './info-window/info-window.component';
+import { AppRoutingModule } from './app.routing.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TieFighterComponent
+    TieFighterComponent,
+    InfoWindowComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    InternalDefensesModule
+    InternalDefensesModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

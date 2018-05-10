@@ -19,3 +19,7 @@
 .turret {
   position: relative;
 }
+
+a {
+  z-index: 1;
+}
